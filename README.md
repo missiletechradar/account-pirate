@@ -1,12 +1,33 @@
 # account-pirate
 A basic tool that uses a vulnerability in Windows that's there since the beginning of time. Using this you can get admin CMD in the login screen directly.
 
-**Just remember:** Don't do this on a machine that isn't yours, if you face cybercriminal charges that's not my problem :)
+**Just remember:** Don't do this on a machine that isn't yours, that includes your **school computers**. if you face cybercriminal charges, that's not my problem :) 
+                   If you do something like this at least do it properly, and I'm not responsbile for it. This tool is for demonstration and educational purposes only.
 
 Requirements:
 
 - A Windows PE USB (Windows 8 or newer)
-- The tool itself (put it in c:\ and run it from windows pe)
+- The tool itself (put it in c:\ and run it from windows pe, just a path where it's easily accessible for you. For secrecy, just put it in the root of your installation media if it isn't a CD/DVD drive.)
+
+**Pro tip: To get file explorer in windows PE, press shift f10 to open command prompt (if you didn't already) and type notepad. Go to File > Open and select "All files".
+
+# How does it work?
+
+When you press SHIFT 5 times, the accesibility popup triggers which is [sethc.exe]. You can also do this in the login screen, and there's a huge security flaw.
+
+![OIP-1815658149](https://github.com/user-attachments/assets/0a26391c-5d15-437d-a2cd-ed07f577ec77)
+
+The user can just rename cmd.exe to sethc.exe, and **boom**. When you press SHIFT 5 times, CMD launches instead of that popup. But you have no admin priviliges.
+
+**To fix that** I made a little executable called [cmd-m]. It's a batch script compiled to EXE so it can request admin priviliges and imitates command prompt. It basically asks for user input and executes it as a command, and this is why you need to type cmd-m in the command prompt when you're in the login screen to get **admin priviliges**.
+
+**Don't worry, you won't get any UAC. In the logon screen you're insolated from users altogether. If you need a full desktop with admin priviliges activate the administrator account:**
+
+Type: **net user Administrator /active:yes**
+
+To disable it, instead of yes just type no at the end: **net user Administrator /active:no**
+
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/c6c7a1ab-ed68-4a51-a3f7-df74636fa1ed" />
 
 This is what the user interface looks like:
 <img width="972" height="514" alt="program" src="https://github.com/user-attachments/assets/c20c09bb-1efd-4e52-b07c-148776652809" />
