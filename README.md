@@ -9,6 +9,8 @@ Requirements:
 - A Windows PE USB (Windows 8 or newer)
 - The tool itself (put it in c:\ and run it from windows pe, just a path where it's easily accessible for you. For secrecy, just put it in the root of your installation media if it isn't a CD/DVD drive.)
 
+***THIS WILL NOT WORK IF THE TARGET INSTALLATION HAS BITLOCKER ENABLED ON THE C DRIVE.**
+
 **Pro tip: To get file explorer in windows PE, press shift f10 to open command prompt (if you didn't already) and type notepad. Go to File > Open and select "All files".
 
 # How does it work?
