@@ -21,13 +21,15 @@ The user can just rename cmd.exe to sethc.exe, and **boom**. When you press SHIF
 
 **To fix that** I made a little executable called [cmd-m]. It's a batch script compiled to EXE so it can request admin priviliges and imitates command prompt. It basically asks for user input and executes it as a command, and this is why you need to type cmd-m in the command prompt when you're in the login screen to get **admin priviliges**.
 
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/c6c7a1ab-ed68-4a51-a3f7-df74636fa1ed" />
+
 **Don't worry, you won't get any UAC. In the logon screen you're insolated from users altogether. If you need a full desktop with admin priviliges activate the administrator account:**
 
 Type: **net user Administrator /active:yes**
 
 To disable it, instead of yes just type no at the end: **net user Administrator /active:no**
 
-<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/c6c7a1ab-ed68-4a51-a3f7-df74636fa1ed" />
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/73d5b57c-598f-4031-80a4-f82d129bf6ae" />
 
 This is what the user interface looks like:
 <img width="972" height="514" alt="program" src="https://github.com/user-attachments/assets/c20c09bb-1efd-4e52-b07c-148776652809" />
