@@ -11,6 +11,8 @@ Requirements:
 
 **THIS WILL NOT WORK IF THE TARGET INSTALLATION HAS BITLOCKER ENABLED ON THE C DRIVE.**
 
+**ANOTHER NOTE: SETCH.EXE WILL BE ADDED TO EXCLUSIONS AND TAMPER PROTECTION WILL BE DISABLED BECAUSE WINDOWS 10 DETECTED THE EXPLOIT IN TESTING**
+
 **Pro tip: To get file explorer in windows PE, press shift f10 to open command prompt (if you didn't already) and type notepad. Go to File > Open and select "All files".
 
 # How does it work?
