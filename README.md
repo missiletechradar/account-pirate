@@ -7,7 +7,11 @@ A basic tool that uses a vulnerability in Windows that's there since the beginni
 Requirements:
 
 - A Windows PE USB (Windows 8 or newer) [you can also use windows recovery enviorement if the target pc can't boot off of usb or smth, it needs to be windows pe 8 or newer still tho)
-- The tool itself (put it in c:\ and run it from windows pe, just a path where it's easily accessible for you. For secrecy, just put it in the root of your installation media if it isn't a CD/DVD drive.)
+- But it defeats the entire purpose of this software since you need a password to go into WinRE:
+
+<img width="474" height="201" alt="image" src="https://github.com/user-attachments/assets/f12e65cc-f5ae-4921-b234-63f9e584a107" />
+
+- The tool itself (put it in c:\ or wherever you want, easily accessible and run it from windows pe, just a path where it's easily accessible for you. For secrecy, just put it in the root of your installation media if it isn't a CD/DVD drive.)
 
 **THIS WILL NOT WORK IF THE TARGET INSTALLATION HAS BITLOCKER ENABLED ON THE C DRIVE.**
 
